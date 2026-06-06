@@ -48,20 +48,39 @@ DrunkBuddy creates a two-sided marketplace where:
 
 ## UX Flows
 
-### Driver App Flow
-*Coming soon: Driver sees pending DrunkBuddy fare, reviews $390 payout + kit details, accepts, completes ride*
+### User Setup & Bender Mode
 
-### Buddy Flow
-*Coming soon: Buddy scans QR code, waits with incapacitated person, optionally submits proof-of-care photo, sees earnings + Karma*
+User profile configuration and bender night activation.
+
+![My Profile](./ux-proto/my-profile.png)
+
+![Start Bender Mode](./ux-proto/start-bender-mode.png)
+
+![Going Hard](./ux-proto/going-hard.png)
+
+### Buddy Scanning Flow
+
+Good Samaritan scans the drunk person's wearable QR code.
+
+![Scan a Buddy](./ux-proto/scan-a-buddy.png)
+
+### Driver App Flow
+
+Driver sees pending DrunkBuddy fare, reviews $390 payout + kit details, accepts the ride.
+
+![Driver Accept](./ux-proto/driver-accept.png)
 
 ### Morning After Portal
-*Coming soon: User wakes up, sees Proof of Care photo, can anonymously tip/endorse Buddy or reveal themselves and send a thank-you message*
 
-### Squad Sync Flow
-*Coming soon: Friends pre-notify each other on Bender Mode, see real-time scan alerts, can intercept before public Buddy arrives*
+User wakes up sober and sees their rescue details, Proof of Care, and can thank their Buddy.
 
-### Venue Dashboard
-*Coming soon: Venues see patron safety metrics, staff commission earnings, "Safe-Hammered" badge status*
+![Morning After](./ux-proto/morning.png)
+
+### Squad Sync Confirmation
+
+Real-time notification that Bender Mode is active and friends are monitoring.
+
+![Bender Is On](./ux-proto/bender-is-on.png)
 
 ## Product Philosophy
 
