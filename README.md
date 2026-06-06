@@ -85,7 +85,3 @@ Currently building clickable prototypes to validate:
 
 - [**concept.md**](./concept.md) — Full product framing: purpose, outcomes, stakeholders, boundary, constraints, tensions, alternatives
 - **TODO.md** — Active work tracking (UX design, technical validation, prototype implementation)
-
-## Team
-
-Kevin Glavin (kevin@bluerock.io)
