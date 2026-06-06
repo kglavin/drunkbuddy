@@ -48,39 +48,48 @@ DrunkBuddy creates a two-sided marketplace where:
 
 ## UX Flows
 
-### User Setup & Bender Mode
+### 1. User Setup & Bender Mode Activation
 
-User profile configuration and bender night activation.
+User configures their profile and activates Bender Mode for a night out.
 
 ![My Profile](./ux-proto/my-profile.png)
-
 ![Start Bender Mode](./ux-proto/start-bender-mode.png)
-
 ![Going Hard](./ux-proto/going-hard.png)
+![Bender Is On](./ux-proto/bender-is-on.png)
 
-### Buddy Scanning Flow
+### 2. Buddy Discovery & QR Scanning
 
-Good Samaritan scans the drunk person's wearable QR code.
+Good Samaritan finds the incapacitated person and scans their wearable QR code.
 
+![Scan a QR](./ux-proto/scan-a-qr.png)
 ![Scan a Buddy](./ux-proto/scan-a-buddy.png)
+![Process Scan](./ux-proto/process-scan.png)
 
-### Driver App Flow
+### 3. Waiting for Rideshare
 
-Driver sees pending DrunkBuddy fare, reviews $390 payout + kit details, accepts the ride.
+Backend dispatch is initiated. Buddy waits with the user for the driver to arrive.
+
+![Waiting for Driver](./ux-proto/waiting-for-driver.png)
+
+### 4. Driver Acceptance & Route
+
+Driver receives the DrunkBuddy fare notification and accepts it. Driver en route to pickup location.
 
 ![Driver Accept](./ux-proto/driver-accept.png)
+![Driver On Route](./ux-proto/driver-on-route.png)
 
-### Morning After Portal
+### 5. In Car & Rescue Complete
 
-User wakes up sober and sees their rescue details, Proof of Care, and can thank their Buddy.
+User is safely in the vehicle. Rescue is confirmed as complete.
+
+![In Car Done](./ux-proto/in-car-done.png)
+![Rescue Complete](./ux-proto/rescue-complete.png)
+
+### 6. Morning After Portal
+
+User wakes up sober and reviews their rescue: Proof of Care photo, Buddy details, and can send a thank-you tip.
 
 ![Morning After](./ux-proto/morning.png)
-
-### Squad Sync Confirmation
-
-Real-time notification that Bender Mode is active and friends are monitoring.
-
-![Bender Is On](./ux-proto/bender-is-on.png)
 
 ## Product Philosophy
 
